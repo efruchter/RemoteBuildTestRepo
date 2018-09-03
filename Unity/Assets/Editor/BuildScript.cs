@@ -21,7 +21,7 @@ class BuildScript
     }
 
     [MenuItem("Custom/CI/Win64")]
-    static void PerformWIn64Build()
+    static void PerformWin64Build()
     {
         string target_dir = APP_NAME + ".exe";
         GenericBuild(SCENES, TARGET_DIR + "/" + target_dir, BuildTarget.StandaloneWindows64, BuildOptions.None);
